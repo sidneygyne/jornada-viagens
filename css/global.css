@@ -25,3 +25,7 @@
   box-sizing: border-box;
   /* background-color: var(--background-tertiary-color); */
 }
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

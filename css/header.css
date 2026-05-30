@@ -15,12 +15,32 @@ header {
 
 .navigation-menu {
   margin-top: 24px;
+  position: relative;
 }
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 
 nav {
   display: none;
+}
+
+.list-links {
+  list-style: none;
+  font-weight: var(--menu-text-weight);
+}
+
+.list-links li {
+  margin: 16px 0;
+}
+
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
 }
