@@ -14,7 +14,7 @@
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 
-  --titles-weight: 700;
+  --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .section-title h2 {
-  font-weight: var(--titles-weight);
+  font-weight: var(--title-weight);
   font-size: 28px;
   margin: 0;
   text-align: center;
