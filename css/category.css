@@ -1,18 +1,8 @@
-.categories {
-  margin-bottom: 104px;
-}
-
-.categories .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .categories-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-top: 64px;
 }
 
 .categories-cards a.card {
