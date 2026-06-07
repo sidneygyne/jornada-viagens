@@ -1,0 +1,37 @@
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.categories-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 64px;
+}
+
+.categories-cards a.card {
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secondary-color);
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  color: var(--text-primary-color);
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.categories-cards .card h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.categories-cards .card.sigle-line {
+  padding-top: 50px;
+}
+
+.categories-cards .card.sigle-line.transfer img {
+  margin: 10px 0 20px;
+}
