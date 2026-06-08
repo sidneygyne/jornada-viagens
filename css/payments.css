@@ -1,0 +1,61 @@
+.payments .image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+
+.bag {
+  background: url("../images/gallery1-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.passport {
+  background: url("../images/gallery2-mobile.png") no-repeat;
+  background-size: cover;
+}
+.people {
+  background: url("../images/gallery3-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .bag {
+    background: url("../images/gallery1-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .passport {
+    background: url("../images/gallery2-tablet.png") no-repeat;
+    background-size: cover;
+  }
+  .people {
+    background: url("../images/gallery3-tablet.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .text-content {
+    width: 360px;
+  }
+  .payments .image-content {
+    width: 790px;
+  }
+
+  .payments-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .payments .text-content {
+    margin-top: 24px;
+  }
+}
