@@ -1,3 +1,13 @@
+.main-header .navigation-menu nav .list-links li .active {
+  text-decoration: underline;
+  line-height: 32px;
+  text-underline-offset: 5px;
+}
+
+.main-header .navigation-menu nav .list-links li .active:hover {
+  color: var(--text-secondary-color);
+}
+
 .hero.hero-package-travel {
   position: relative;
   margin-bottom: 88px;
@@ -66,10 +76,6 @@
     no-repeat;
   background-size: cover;
 }
-
-/* .active-page {
-  text-decoration: underline;
-} */
 
 @media screen and (min-width: 768px) {
   .hero.hero-package-travel .hero-img {
