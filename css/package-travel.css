@@ -24,7 +24,7 @@
   margin-bottom: 16px;
 }
 
-hr {
+.hero.hero-package-travel .hero-text hr {
   border: 2px solid var(--primary-color);
   width: 180px;
 }
