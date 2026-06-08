@@ -26,13 +26,23 @@
   margin-top: 24px;
 }
 
-input[type="checkbox"]:checked ~ nav {
+.navigation-menu label {
+  cursor: pointer;
+}
+
+#menu {
+  display: none;
+}
+
+#menu:checked ~ nav {
   display: block;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   background-color: var(--background-tertiary-color);
+
+  z-index: 999;
 }
 
 nav {
@@ -53,6 +63,16 @@ nav {
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
+}
+
+.list-links li a.active {
+  text-decoration: underline;
+  line-height: 32px;
+  text-underline-offset: 5px;
+}
+
+.list-links li .active:hover {
+  color: var(--text-secondary-color);
 }
 
 @media screen and (min-width: 768px) {
