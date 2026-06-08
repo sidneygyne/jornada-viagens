@@ -10,7 +10,6 @@
 
 .hero.hero-package-travel .hero-text {
   margin: 65px 24px;
-  /* background-color: black; */
   color: var(--text-secondary-color);
 
   position: absolute;
@@ -22,7 +21,7 @@
 .hero.hero-package-travel h1 {
   font-size: 48px;
   font-weight: var(--title-weight);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 hr {
@@ -45,6 +44,16 @@ hr {
     background: url("/images/travel-packages/japan-bg-hero-tablet.png")
       no-repeat;
     background-size: cover;
+    height: 620px;
+  }
+
+  .hero.hero-package-travel .hero-text {
+    margin: 210px 69px 108px 120px;
+  }
+
+  .hero.hero-package-travel p {
+    font-size: 32px;
+    line-height: 48px;
   }
 }
 
@@ -53,5 +62,9 @@ hr {
     background: url("/images/travel-packages/japan-bg-hero-desktop.png")
       no-repeat;
     background-size: cover;
+  }
+
+  .hero.hero-package-travel .hero-text {
+    margin: 158px 740px 158px 120px;
   }
 }
