@@ -23,6 +23,53 @@
   text-align: center;
 }
 
+/* PAGINA DE PACOTES DE VIAGENS */
+
+.hero.hero-package-travel {
+  position: relative;
+  margin-bottom: 88px;
+}
+
+.hero.hero-package-travel .hero-img {
+  background: url("/images/travel-packages/japan-bg-hero-mobile.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.hero.hero-package-travel .hero-text {
+  margin: 65px 24px;
+  color: var(--text-secondary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.hero.hero-package-travel h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  margin-bottom: 16px;
+}
+
+.hero.hero-package-travel .hero-text hr {
+  border: 2px solid var(--primary-color);
+  width: 180px;
+}
+
+.hero.hero-package-travel p {
+  margin-top: 32px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.bottom-hero.bottom-hero-package-travel .hero-img {
+  background: url("/images/travel-packages/japan-bg-bottom-hero-mobile.png")
+    no-repeat;
+  background-size: cover;
+}
+
+/* PAGINA DE PACOTES DE VIAGENS - FIM */
+
 @media (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -41,6 +88,33 @@
     font-size: 32px;
     line-height: 48px;
   }
+
+  /* PAGINA DE PACOTES DE VIAGENS */
+
+  .hero.hero-package-travel .hero-img {
+    background: url("/images/travel-packages/japan-bg-hero-tablet.png")
+      no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .hero.hero-package-travel .hero-text {
+    margin-left: 60px;
+    width: 648px;
+  }
+
+  .hero.hero-package-travel p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .bottom-hero.bottom-hero-package-travel .hero-img {
+    background: url("/images/travel-packages/japan-bg-bottom-hero-tablet.png")
+      no-repeat;
+    background-size: cover;
+  }
+
+  /* PAGINA DE PACOTES DE VIAGENS - FIM */
 }
 
 @media (min-width: 1024px) {
@@ -58,10 +132,48 @@
   .hero h2 {
     padding: 88px 120px;
   }
+
+  /* PAGINA DE PACOTES DE VIAGENS */
+  .hero.hero-package-travel .hero-text {
+    margin-left: 65px;
+    width: 648px;
+  }
+
+  /* PAGINA DE PACOTES DE VIAGENS - FIM */
+}
+
+@media screen and (min-width: 1440px) {
+  /* PAGINA DE PACOTES DE VIAGENS */
+  .hero.hero-package-travel {
+    margin-bottom: 104px;
+  }
+
+  .hero.hero-package-travel .hero-img {
+    background: url("/images/travel-packages/japan-bg-hero-desktop.png")
+      no-repeat;
+    background-size: cover;
+  }
+
+  .hero.hero-package-travel .hero-text {
+    margin: 158px 740px 158px 120px;
+  }
+
+  .bottom-hero.bottom-hero-package-travel .hero-img {
+    background: url("/images/travel-packages/japan-bg-bottom-hero-desktop.png")
+      no-repeat;
+    background-size: cover;
+  }
+  /* PAGINA DE PACOTES DE VIAGENS */
 }
 
 @media (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
   }
+
+  /* PAGINA DE PACOTES DE VIAGENS */
+  .hero.hero-package-travel .hero-text {
+    margin-left: 365px;
+  }
+  /* PAGINA DE PACOTES DE VIAGENS - FIM*/
 }
