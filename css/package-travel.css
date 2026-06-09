@@ -12,7 +12,6 @@
 .hero.hero-package-travel .hero-text {
   margin: 65px 24px;
   color: var(--text-secondary-color);
-
   position: absolute;
   top: 0;
   left: 0;
@@ -76,7 +75,8 @@
   }
 
   .hero.hero-package-travel .hero-text {
-    margin: 210px 69px 108px 120px;
+    margin-left: 60px;
+    width: 648px;
   }
 
   .hero.hero-package-travel p {
@@ -114,6 +114,13 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .hero.hero-package-travel .hero-text {
+    margin-left: 65px;
+    width: 648px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .hero.hero-package-travel {
     margin-bottom: 104px;
@@ -133,5 +140,11 @@
     background: url("/images/travel-packages/japan-bg-bottom-hero-desktop.png")
       no-repeat;
     background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero.hero-package-travel .hero-text {
+    margin-left: 365px;
   }
 }
