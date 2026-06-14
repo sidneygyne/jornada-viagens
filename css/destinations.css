@@ -38,6 +38,22 @@
   width: 100%;
 }
 
+/* Pagina blog */
+
+.destinations .item span {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.destinations.destinations-tokyo .destinations-items {
+  gap: 32px;
+}
+
+.destinations.destinations-tokyo .destinations-items .item .img-item.tokio {
+  margin-top: 8px;
+}
+
 @media (min-width: 768px) {
   .destinations {
     width: 648px;
@@ -60,6 +76,11 @@
   .destinations .button {
     width: 280px;
   }
+
+  /* Pagina Blog */
+  .destinations.destinations-tokyo .destinations-items .item.firts-item {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -76,6 +97,11 @@
   .destinations .item .img-item {
     width: 100%;
     height: 452px;
+  }
+
+  /* Pagina Blog */
+  .destinations-items {
+    flex-direction: column;
   }
 }
 
