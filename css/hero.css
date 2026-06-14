@@ -23,20 +23,30 @@
   text-align: center;
 }
 
-/* PAGINA DE PACOTES DE VIAGENS */
+/* PAGINA DE PACOTES DE VIAGENS e BLOG */
 
-.hero.hero-package-travel {
+.hero.hero-package-travel,
+.hero.hero-blog {
   position: relative;
   margin-bottom: 88px;
 }
 
+/* HERO PACOTE DE VIAGENS */
 .hero.hero-package-travel .hero-img {
   background: url("/images/travel-packages/japan-bg-hero-mobile.png") no-repeat;
   background-size: cover;
   height: 460px;
 }
 
-.hero.hero-package-travel .hero-text {
+/* HERO BLOG */
+.hero.hero-blog .hero-img {
+  background: url("/images/blog/landscape-bg-hero-mobile.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+.hero.hero-package-travel .hero-text,
+.hero.hero-blog .hero-text {
   margin: 65px 24px;
   color: var(--text-secondary-color);
   position: absolute;
@@ -45,18 +55,21 @@
   z-index: 10;
 }
 
-.hero.hero-package-travel h1 {
+.hero.hero-package-travel h1,
+.hero.hero-blog h1 {
   font-size: 48px;
   font-weight: var(--title-weight);
   margin-bottom: 16px;
 }
 
-.hero.hero-package-travel .hero-text hr {
+.hero.hero-package-travel .hero-text hr,
+.hero.hero-blog .hero-text hr {
   border: 2px solid var(--primary-color);
   width: 180px;
 }
 
-.hero.hero-package-travel p {
+.hero.hero-package-travel p,
+.hero.hero-blog p {
   margin-top: 32px;
   font-size: 20px;
   line-height: 32px;
@@ -89,8 +102,9 @@
     line-height: 48px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS */
+  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
 
+  /* HERO PACOTE DE VIAGENS */
   .hero.hero-package-travel .hero-img {
     background: url("/images/travel-packages/japan-bg-hero-tablet.png")
       no-repeat;
@@ -98,12 +112,21 @@
     height: 620px;
   }
 
-  .hero.hero-package-travel .hero-text {
+  /* HERO BLOG */
+  .hero.hero-blog .hero-img {
+    background: url("/images/blog/landscape-bg-hero-tablet.png") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .hero.hero-package-travel .hero-text,
+  .hero.hero-blog .hero-text {
     margin-left: 60px;
     width: 648px;
   }
 
-  .hero.hero-package-travel p {
+  .hero.hero-package-travel p,
+  .hero.hero-blog p {
     font-size: 32px;
     line-height: 48px;
   }
@@ -133,37 +156,48 @@
     padding: 88px 120px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS */
-  .hero.hero-package-travel .hero-text {
+  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
+  .hero.hero-package-travel .hero-text,
+  .hero.hero-blog .hero-text {
     margin-left: 65px;
     width: 648px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS - FIM */
+  /* PAGINA DE PACOTES DE VIAGENS E BLOG - FIM */
 }
 
 @media screen and (min-width: 1440px) {
-  /* PAGINA DE PACOTES DE VIAGENS */
-  .hero.hero-package-travel {
+  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
+  .hero.hero-package-travel,
+  .hero.hero-blog {
     margin-bottom: 104px;
   }
 
+  /* HERO PACOTE DE VIAGENS */
   .hero.hero-package-travel .hero-img {
     background: url("/images/travel-packages/japan-bg-hero-desktop.png")
       no-repeat;
     background-size: cover;
   }
 
-  .hero.hero-package-travel .hero-text {
+  /* HERO BLOG */
+  .hero.hero-blog .hero-img {
+    background: url("/images/blog/landscape-bg-hero-dektop.png") no-repeat;
+    background-size: cover;
+  }
+
+  .hero.hero-package-travel .hero-text,
+  .hero.hero-blog .hero-text {
     margin: 158px 740px 158px 120px;
   }
 
-  .bottom-hero.bottom-hero-package-travel .hero-img {
+  .bottom-hero.bottom-hero-package-travel .hero-img,
+  .bottom-hero.bottom-hero-blog .hero-img {
     background: url("/images/travel-packages/japan-bg-bottom-hero-desktop.png")
       no-repeat;
     background-size: cover;
   }
-  /* PAGINA DE PACOTES DE VIAGENS */
+  /* PAGINA DE PACOTES DE VIAGENS E BLOG - FIM*/
 }
 
 @media (min-width: 1920px) {
@@ -171,8 +205,9 @@
     padding: 88px 160px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS */
-  .hero.hero-package-travel .hero-text {
+  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
+  .hero.hero-package-travel .hero-text,
+  .hero.hero-blog .hero-text {
     margin-left: 365px;
   }
   /* PAGINA DE PACOTES DE VIAGENS - FIM*/
