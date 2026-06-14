@@ -26,6 +26,16 @@
   background-size: cover;
 }
 
+.hiroshima {
+  background: url("../images/hiroshima-mobile.png");
+  background-size: cover;
+}
+
+.kyoto {
+  background: url("../images/kyoto-mobile.png");
+  background-size: cover;
+}
+
 .destinations .item header h3 {
   margin: 24px 0;
 }
@@ -70,6 +80,16 @@
 
   .osaka {
     background: url("../images/osaka-tablet-desk.jpg");
+    background-size: cover;
+  }
+
+  .hiroshima {
+    background: url("../images/hiroshima-tablet.png");
+    background-size: cover;
+  }
+
+  .kyoto {
+    background: url("../images/kyoto-tablet.png");
     background-size: cover;
   }
 
