@@ -88,45 +88,57 @@
         </div>
       </section>
 
-      <section class="">
+      <section class="contact-form">
         <div class="section-title">
           <h2>Preencha o formulário:</h2>
           <hr />
-          <p>
+          <p class="content-text">
             Temos uma equipe sempre em prontidão para resolver suas dúvidas,
             problemas, trazer dicas e orientações objetivas para tornar sua
             experiência o mais prazerosa e tranquila possível. Preencha seus
             dados que vamos retornar seu contato conforme a urgência do seu
             chamado. Pode confiar!
           </p>
-        </div>
+          <form>
+            <input
+              placeholder="Seu nome"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
 
-        <div class="destinations-items">
-          <div class="item firts-item">
+            <input
+              placeholder="Telefone"
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+            />
+
+            <input
+              placeholder="Email"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+
+            <input
+              placeholder="Assunto"
+              type="text"
+              id="subject"
+              name="subject"
+              required
+            />
+
             <div>
-              <h3 class="content-title">Chegada</h3>
-              <p class="content-text">
-                Nossa viagem começou no Aeroporto Internacional de Narita,
-                localizado a cerca de 60 km de Tóquio. Após desembarcar e fazer
-                todos os procedimentos de imigração, fomos recebidos pela equipe
-                da Jornada Viagens, que nos conduziu até o nosso hotel.
-              </p>
-            </div>
-            <form>
-              <label for="name">Nome:</label>
-              <input type="text" id="name" name="name" required />
-
-              <label for="phone">Telefone:</label>
-              <input type="tel" id="phone" name="phone" required />
-
-              <label for="email">E-mail:</label>
-              <input type="email" id="email" name="email" required />
-
-              <label for="message">Mensagem:</label>
+              <label for="message">Mensagem</label>
               <textarea id="message" name="message" required></textarea>
-              <button type="submit">Enviar</button>
-            </form>
-          </div>
+            </div>
+
+            <button type="submit" class="button">Enviar</button>
+          </form>
         </div>
       </section>
     </main>
