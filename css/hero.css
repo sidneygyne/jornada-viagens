@@ -98,6 +98,10 @@
     no-repeat;
   background-size: cover;
 }
+*** continuar daqui nos outras telas .main-contact .bottom-hero .hero-img {
+  background: url("/images/contato/botton-hero-contact-mobile.png") no-repeat;
+  background-size: cover;
+}
 
 /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO - FIM */
 
