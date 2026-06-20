@@ -23,10 +23,11 @@
   text-align: center;
 }
 
-/* PAGINA DE PACOTES DE VIAGENS e BLOG */
+/* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO */
 
 .hero.hero-package-travel,
-.hero.hero-blog {
+.hero.hero-blog,
+.hero.hero-contact {
   position: relative;
   margin-bottom: 88px;
 }
@@ -45,8 +46,16 @@
   height: 460px;
 }
 
+/* HERO CONTATO */
+.hero.hero-contact .hero-img {
+  background: url("/images/contato/contact-mobile.png") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
 .hero.hero-package-travel .hero-text,
-.hero.hero-blog .hero-text {
+.hero.hero-blog .hero-text,
+.hero.hero-contact .hero-text {
   margin: 65px 24px;
   color: var(--text-secondary-color);
   position: absolute;
@@ -56,23 +65,32 @@
 }
 
 .hero.hero-package-travel h1,
-.hero.hero-blog h1 {
+.hero.hero-blog h1,
+.hero.hero-contact h1 {
   font-size: 48px;
   font-weight: var(--title-weight);
   margin-bottom: 16px;
 }
 
 .hero.hero-package-travel .hero-text hr,
-.hero.hero-blog .hero-text hr {
+.hero.hero-blog .hero-text hr,
+.hero.hero-contact .hero-text hr {
   border: 2px solid var(--primary-color);
   width: 180px;
 }
 
 .hero.hero-package-travel p,
-.hero.hero-blog p {
+.hero.hero-blog p,
+.hero.hero-contact p {
   margin-top: 32px;
   font-size: 20px;
   line-height: 32px;
+}
+
+.contact-form p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
 }
 
 .bottom-hero.bottom-hero-package-travel .hero-img {
@@ -80,8 +98,12 @@
     no-repeat;
   background-size: cover;
 }
+*** continuar daqui nos outras telas .main-contact .bottom-hero .hero-img {
+  background: url("/images/contato/botton-hero-contact-mobile.png") no-repeat;
+  background-size: cover;
+}
 
-/* PAGINA DE PACOTES DE VIAGENS - FIM */
+/* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO - FIM */
 
 @media (min-width: 768px) {
   .hero .hero-img {
@@ -102,7 +124,7 @@
     line-height: 48px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
+  /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO */
 
   /* HERO PACOTE DE VIAGENS */
   .hero.hero-package-travel .hero-img {
@@ -119,10 +141,29 @@
     height: 620px;
   }
 
+  /* HERO CONTATO */
+  .hero.hero-contact .hero-img {
+    background: url("/images/contato/contact-tablet.png") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
   .hero.hero-package-travel .hero-text,
-  .hero.hero-blog .hero-text {
+  .hero.hero-blog .hero-text .hero.hero-contact .hero-text {
     margin-left: 60px;
     width: 648px;
+  }
+
+  .hero.hero-contact .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 184px 94px auto;
+  }
+
+  .hero.hero-contact .hero-text p {
+    font-size: 32px;
+    line-height: 48px;
   }
 
   .hero.hero-package-travel p,
@@ -137,7 +178,7 @@
     background-size: cover;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS - FIM */
+  /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO- FIM */
 }
 
 @media (min-width: 1024px) {
@@ -156,18 +197,18 @@
     padding: 88px 120px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
+  /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO */
   .hero.hero-package-travel .hero-text,
   .hero.hero-blog .hero-text {
     margin-left: 65px;
     width: 648px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS E BLOG - FIM */
+  /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO - FIM */
 }
 
 @media screen and (min-width: 1440px) {
-  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
+  /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO */
   .hero.hero-package-travel,
   .hero.hero-blog {
     margin-bottom: 104px;
@@ -186,6 +227,18 @@
     background-size: cover;
   }
 
+  /* HERO CONTATO */
+  .hero.hero-contact .hero-img {
+    background: url("/images/contato/contact-desktop.png") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+
+  .hero.hero-contact .hero-text {
+    margin: 210px auto auto 120px;
+    width: 580px;
+  }
+
   .hero.hero-package-travel .hero-text,
   .hero.hero-blog .hero-text {
     margin: 158px 740px 158px 120px;
@@ -197,7 +250,7 @@
       no-repeat;
     background-size: cover;
   }
-  /* PAGINA DE PACOTES DE VIAGENS E BLOG - FIM*/
+  /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO - FIM*/
 }
 
 @media (min-width: 1920px) {
@@ -205,7 +258,7 @@
     padding: 88px 160px;
   }
 
-  /* PAGINA DE PACOTES DE VIAGENS E BLOG */
+  /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO */
   .hero.hero-package-travel .hero-text,
   .hero.hero-blog .hero-text {
     margin-left: 365px;
