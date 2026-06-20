@@ -129,8 +129,4 @@
   .destinations {
     width: 1200px;
   }
-
-  .destinations-items {
-    flex-direction: row;
-  }
 }

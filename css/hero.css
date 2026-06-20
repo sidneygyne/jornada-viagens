@@ -179,6 +179,11 @@
     background-size: cover;
   }
 
+  .main-contact .bottom-hero .hero-img {
+    background: url("/images/contato/botton-hero-contact-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
   /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO- FIM */
 }
 
@@ -251,6 +256,12 @@
       no-repeat;
     background-size: cover;
   }
+
+  .main-contact .bottom-hero .hero-img {
+    background: url("/images/contato/botton-hero-contact-desktop.png") no-repeat;
+    background-size: cover;
+  }
+
   /* PAGINA DE PACOTES DE VIAGENS, BLOG, CONTATO - FIM*/
 }
 
